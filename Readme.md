@@ -1,5 +1,5 @@
 ![Version 1.0](https://img.shields.io/badge/version-1.0-brightgreen.svg)
-![Language Python](https://img.shields.io/badge/find-documentation-blue.svg)
+![Language Python](https://img.shields.io/badge/language-python-blue.svg)
 
 ## LoNFo-dev
 
