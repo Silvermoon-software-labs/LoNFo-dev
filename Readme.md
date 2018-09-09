@@ -1,7 +1,7 @@
 ![Version 1.0](https://img.shields.io/badge/Version-1.0-brightgreen.svg)
-![Language Python](https://img.shields.io/badge/Language-Python-blue.svg)
+![Language Python](https://img.shields.io/badge/Language-Python,%20JavaScript,%20HTML,%20CSS-blue.svg)
 ![Framework Django](https://img.shields.io/badge/Framework-Django-yellow.svg)
-![Status Working](https://img.shields.io/badge/Status-Working/Incomplete-orange.svg)
+![Status Working](https://img.shields.io/badge/Status-Working%20/%20Incomplete-orange.svg)
 
 ## LoNFo-dev
 
