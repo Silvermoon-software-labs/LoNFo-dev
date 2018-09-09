@@ -20,8 +20,6 @@ There will be an app and a website for the same where a user can register if he 
 The same goes for the user who has found the belonging of another user and can register it as a found article where he will be providing the location, date, time & minor details.
 This will be the place where they can meet and mutually agree on some deal (This is not our concern) which can be really helpfull for the people who lost their belongings and the person who founds it does have any way to return it if the product has no label in it.
 
-`# Note: We do not have any concern if you are being thugged or manipulated by anyone, as we don't have any right to tke any legal action and also this is only the medium to connect the user with lost belongings and the user with found belongings.`
-
 ```Steps Involved:```
 
 - [x] Discussion
@@ -30,3 +28,12 @@ This will be the place where they can meet and mutually agree on some deal (This
     - [ ] Designing
     - [ ] Functionality
     - [ ] Admin Connection
+
+
+
+
+
+
+
+
+`# Note: We do not have any concern if you are being thugged or manipulated by anyone, as we don't have any right to tke any legal action and also this is only the medium to connect the user with lost belongings and the user with found belongings.`
