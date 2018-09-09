@@ -24,8 +24,9 @@ This will be the place where they can meet and mutually agree on some deal (This
 
 ```Steps Involved:```
 
-- [x] Completed task
-- [ ] Incomplete task
-    - [ ] Sub-task 1
-    - [x] Sub-task 2
-    - [ ] Sub-task 3
+- [x] Discussion
+- [x] Environment Setup
+- [ ] Front Page
+    - [ ] Designing
+    - [ ] Functionality
+    - [ ] Admin Connection
