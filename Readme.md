@@ -28,6 +28,11 @@ This will be the place where they can meet and mutually agree on some deal (This
     - [ ] Designing
     - [ ] Functionality
     - [ ] Admin Connection
+- [ ] Accounts Page
+    - [ ] Login
+    - [ ] Signup
+    - [ ] Social Login
+- [ ] Create poster
 
 
 
