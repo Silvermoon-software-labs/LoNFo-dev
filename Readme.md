@@ -23,3 +23,9 @@ This will be the place where they can meet and mutually agree on some deal (This
 `# Note: We do not have any concern if you are being thugged or manipulated by anyone, as we don't have any right to tke any legal action and also this is only the medium to connect the user with lost belongings and the user with found belongings.`
 
 ```Steps Involved:```
+
+- [x] Completed task
+- [ ] Incomplete task
+    - [ ] Sub-task 1
+    - [x] Sub-task 2
+    - [ ] Sub-task 3
