@@ -1,0 +1,211 @@
+.venn-container {
+    padding: 25px 25px 25px 200px;
+  }
+  .venncircle {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+  }
+  .venncircle > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .venncirclft {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    margin-left: -157px;
+    background-color: #093d5c;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(9, 61, 92, 0.5);
+    z-index: 2;
+  }
+  .venncirclft > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .venncirclft:hover {
+    z-index: 5;
+    background-color: #37688C;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(55, 104, 140, 0.9);
+  }
+  .venncircrt {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    margin-left: 17px;
+    background-color: #5e577b;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(94, 87, 123, 0.5);
+    z-index: 3;
+    text-align: right;
+  }
+  .venncircrt > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .venncircrt:hover {
+    z-index: 5;
+    background-color: #625F75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(98, 95, 117, 0.9);
+  }
+
+  .venntxtrt {
+    margin: 0 0 0 87px;
+    display: inline-block;
+    position: relative;
+    top: 63px;
+    z-index: 5;
+  }
+  .venntxtrt:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+  }
+  
+  .venntxtlft {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    top: 63px;
+    z-index: 5;
+  }
+  .venntxtlft:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+  }
+
+  /* FOR SPARE USER (TOP/BOTTOM CIRCLES) */
+
+  /* .venntxtbtm {
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    top: 103px;
+  }
+  .venntxtbtm:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+  } */
+    /* .venncirctop {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    margin-bottom: -130px;
+    margin-left: -70px;
+    background-color: #5c5b59;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(92, 91, 89, 0.5);
+    z-index: 1;
+    position: relative;
+  } */
+  /* .venncirctop > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+  } */
+  /* .venncirctop:hover {
+    z-index: 5;
+    background-color: #6A6561;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(106, 101, 97, 0.9);
+  } */
+  /* .venncircbtm {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    top: 90px;
+    margin-right: 100px;
+    margin-left: -70px;
+    text-align: center;
+    background-color: #627746;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(98, 119, 70, 0.5);
+    z-index: 1;
+    position: relative;
+  }
+  .venncircbtm > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .venncircbtm:hover {
+    z-index: 5;
+    background-color: #3a4e20;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    background-color: rgba(58, 78, 32, 0.9);
+  } */
+  /* .venntxttop {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+  }
+  .venntxttop:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+  } */
