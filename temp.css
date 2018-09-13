@@ -14,7 +14,7 @@
     -o-transition: color 0.5s linear, background-color 0.5s linear;
     transition: color 0.5s linear, background-color 0.5s linear;
   }
-  .venncircle > a {
+  .venncircle > span {
     font-size: 19px;
     font-weight: bold;
     letter-spacing: .004em;
@@ -22,7 +22,7 @@
     text-decoration: none;
   }
   .venncirclft {
-    padding: 18px;
+    padding: 50px;
     width: 180px;
     height: 180px;
     -moz-border-radius: 200px;
@@ -33,14 +33,14 @@
     -moz-transition: color 0.5s linear, background-color 0.5s linear;
     -o-transition: color 0.5s linear, background-color 0.5s linear;
     transition: color 0.5s linear, background-color 0.5s linear;
-    margin-left: -157px;
+    margin-left: -180px;
     background-color: #093d5c;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     background-color: rgba(3, 29, 216, 0.69);
     z-index: 2;
   }
-  .venncirclft > a {
+  .venncirclft > span {
     font-size: 19px;
     font-weight: bold;
     letter-spacing: .004em;
@@ -55,7 +55,7 @@
     background-color: rgba(55, 104, 140, 0.9);
   }
   .venncircrt {
-    padding: 18px;
+    padding: 50px;
     width: 180px;
     height: 180px;
     -moz-border-radius: 200px;
@@ -66,15 +66,15 @@
     -moz-transition: color 0.5s linear, background-color 0.5s linear;
     -o-transition: color 0.5s linear, background-color 0.5s linear;
     transition: color 0.5s linear, background-color 0.5s linear;
-    margin-left: 17px;
-    background-color: #5e577b;
+    margin-left: 20px;
+    background-color: #c75a1a;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     background-color: rgba(255, 141, 0, 0.88);
     z-index: 3;
     text-align: right;
   }
-  .venncircrt > a {
+  .venncircrt > span {
     font-size: 19px;
     font-weight: bold;
     letter-spacing: .004em;
