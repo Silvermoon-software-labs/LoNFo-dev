@@ -1,5 +1,5 @@
 .venn-container {
-    padding: 25px 25px 25px 200px;
+    padding: 18% 0% 0% 48%;
   }
   .venncircle {
     padding: 18px;
@@ -37,7 +37,7 @@
     background-color: #093d5c;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    background-color: rgba(9, 61, 92, 0.5);
+    background-color: rgba(3, 29, 216, 0.69);
     z-index: 2;
   }
   .venncirclft > a {
@@ -70,7 +70,7 @@
     background-color: #5e577b;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    background-color: rgba(94, 87, 123, 0.5);
+    background-color: rgba(255, 141, 0, 0.88);
     z-index: 3;
     text-align: right;
   }
