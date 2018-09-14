@@ -3,8 +3,13 @@
     background-color: #fffced !important;
   }
 
+  .some {
+    margin-top: 335px;
+    margin-left: -40px;
+  }
+
   .venn-container {
-    padding: 18% 0% 0% 48%;
+    padding: 15% 0% 0% 48%;
   }
 
   .venncircle {
