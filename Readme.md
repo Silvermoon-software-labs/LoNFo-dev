@@ -22,11 +22,11 @@ This will be the place where they can meet and mutually agree on some deal (This
 - [x] Discussion
 - [x] Environment Setup
 - [ ] Front Page
-    - [ ] Designing
+    - [x] Designing
     - [ ] Functionality
     - [ ] Admin Connection
 - [ ] Accounts Page
-    - [ ] Login
+    - [x] Login
     - [ ] Signup
     - [ ] Social Login
 - [ ] Create poster
