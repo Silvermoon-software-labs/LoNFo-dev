@@ -6,8 +6,9 @@ from django.db import models
 
 class Admin_Page(models.Model):
     Name = models.CharField(max_length = 30)
-    Contact = models.IntegerField(max_length = 20)
-    Lost_Found_Product = models.TextField(max_length = 20)
+    Contact = models.IntegerField()
+    Email = models.EmailField()
+    Lost_Found_Product = models.CharField(max_length = 10)
     Small_Description = models.TextField(max_length = 120)
     Tags = models.CharField(max_length = 50)
     Location = models.TextField()
