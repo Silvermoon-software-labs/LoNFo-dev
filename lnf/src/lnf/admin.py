@@ -4,9 +4,9 @@ from django.contrib import admin
 from lnf.models import Admin_Page
 
 class PostModelAdmin(admin.ModelAdmin):
-	list_display = ['Name', 'Contact','Email', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
-	list_filter = ['Name', 'Contact','Email', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
-	search_fields = ['Name', 'Contact','Email', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
+	list_display = ['Name', 'Contact', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
+	list_filter = ['Name', 'Contact', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
+	search_fields = ['Name', 'Contact', 'Lost_Found_Product', 'Small_Description','Tags','Location','Date_and_Time']
 
 
 	class Meta:
