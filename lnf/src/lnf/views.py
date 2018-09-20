@@ -10,3 +10,6 @@ def Lnf_Detail(requests):
         "object_list" : queryset
     }
     return render(requests, "Lnf_Detail.html", details)
+
+def Homepage(requests):
+	return render(requests, "index.html", {})
