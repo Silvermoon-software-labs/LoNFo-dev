@@ -15,7 +15,7 @@ class LostNFound(models.Model):
     # tags = TaggableManager()
     Location = models.TextField()
     Date_and_Time = models.DateTimeField(auto_now=False, auto_now_add=True)
-    
+
     def __str__(self):
         return self.Name
 
