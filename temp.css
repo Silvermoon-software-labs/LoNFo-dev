@@ -1,6 +1,7 @@
 
   body {
     background-color: #fffced !important;
+    margin: 0;
   }
   ul{
     margin: 0;
@@ -15,8 +16,10 @@
   }
   .header-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 0 24px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid green;
   }
   .menu {
     align-self: center;
