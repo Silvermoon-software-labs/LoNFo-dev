@@ -2,7 +2,47 @@
   body {
     background-color: #fffced !important;
   }
-
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin: 0;
+    padding-left: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .menu {
+    align-self: center;
+  }
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu ul li {
+    margin: 0 10px;
+  }
+  .cta {
+   align-self: center;
+  }
+  .navbar-form{
+    display: flex;
+    align-self: center;
+  }
+  .form-wrapper{
+    display: none;
+  }
+  .show-form{
+    display: flex;
+  }
   .some {
     margin-top: 335px;
     margin-left: -40px;
