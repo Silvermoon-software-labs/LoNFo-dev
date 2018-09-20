@@ -1,4 +1,4 @@
-  
+
   body {
     background-color: #fffced !important;
   }
@@ -42,6 +42,19 @@
   }
   .show-form{
     display: flex;
+  }
+  .form-control{
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .btn-close {
+    display: block;
+  }
+  .btn{
+    width: 80px;
+    height: 30px;
+    background-color: forestgreen;
   }
   .some {
     margin-top: 335px;
