@@ -48,13 +48,22 @@
     height: 35px;
     font-size: 14px;
   }
-  .btn-close {
-    display: block;
+  .close-btn {
+    display: none;
   }
   .btn{
     width: 80px;
     height: 30px;
     background-color: forestgreen;
+  }
+  .show-close-button{
+    display: block;
+  }
+  .btn-success{
+    display: block;
+  }
+  .remove-sign-up{
+    display: none;
   }
   .some {
     margin-top: 335px;
