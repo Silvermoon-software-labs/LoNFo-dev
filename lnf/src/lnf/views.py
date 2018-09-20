@@ -4,12 +4,14 @@ from django.http import HttpResponse
 # Create your views here.
 from .models import LostNFound
 
-def Lnf_Detail(requests):
+
+def dummy(requests):
     queryset = LostNFound.objects.all()
     details = {
-        "object_list" : queryset
+        "object_list": queryset
     }
     return render(requests, "Lnf_Detail.html", details)
 
-def Homepage(requests):
-	return render(requests, "index.html", {})
+
+def landing(requests):
+    return render(requests, "index.html", {})
