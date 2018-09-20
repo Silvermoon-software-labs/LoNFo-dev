@@ -3,6 +3,19 @@
 
 <body>
 <h1>Details will come here</h1>
+
+{% for obj in object_list%}
+
+{{ obj.Name}}<br/>
+{{ obj.Contact}}<br/>
+{{ obj.Email}}<br/>
+{{ obj.Lost_Found_Product}}<br/>
+{{ obj.Small_Description}}<br/>
+{{ obj.Location}}<br/>
+{{ obj.Date_and_Time}}<br/>
+
+
+{% endfor %}
 </body>
 
 </html>
