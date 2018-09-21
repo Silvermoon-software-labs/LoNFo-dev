@@ -1,6 +1,7 @@
 
   body {
-    background-color: #fffced !important;
+    background-color: #f5f5f5  !important;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
   }
   ul{
@@ -15,6 +16,7 @@
     text-decoration: none;
   }
   .header-wrapper {
+    background-color: #26C6CD;
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -30,10 +32,24 @@
     margin: 0;
     padding: 0;
   }
-  .menu ul li {
+  .menu ul li a{
+    text-transform: uppercase;
     margin: 0 10px;
+    transition: background-color 0.3s ease-out;
   }
-  .cta {
+    .menu ul li a{
+      color: white;
+      padding: 16px;
+      line-height: 5px;
+    }
+    .menu ul li a:hover {
+      background-color: white;
+      border-color: transparent;
+      color: #26C6CD; 
+
+    }
+
+ .cta {
    align-self: center;
   }
   .navbar-form{
@@ -55,8 +71,8 @@
     display: none;
   }
   .btn{
-    width: 80px;
-    height: 30px;
+    width: 95px;
+    height: 50px;
     background-color: forestgreen;
   }
   .show-close-button{
