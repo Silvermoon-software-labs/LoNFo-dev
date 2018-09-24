@@ -22,7 +22,7 @@ a {
   background-color: #26C6CD;
   display: flex;
   justify-content: space-around;
-  position: fixed;
+/*  position: fixed;*/
   width: 100%;
   border-bottom: 1px solid green;
 }
@@ -117,13 +117,21 @@ a {
   color: white;
   margin-right: 5px;
 }
+.quotes{
+  margin: 50px auto;
+  max-width: 950px;
+  font-size: 32px;
+}
 .some {
   margin-top: 335px;
   margin-left: -40px;
 }
-
+.row-fluid {
+  margin-bottom: 400px;
+}
 .venn-container {
-  padding: 15% 0% 0% 48%;
+  padding: 0% 0% 0% 45%;
+
 }
 
 .venncircle {
@@ -150,8 +158,8 @@ a {
 
 .venncirclft {
   padding: 50px;
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
   border-radius: 50%;
@@ -186,8 +194,8 @@ a {
 
 .venncircrt {
   padding: 50px;
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
   border-radius: 50%;
@@ -249,117 +257,134 @@ a {
 }
 
 
-/* FOR SPARE USER (TOP/BOTTOM CIRCLES) */
+/* carousel start*/
 
-
-/* .venntxtbtm {
-    text-align: center;
-    display: inline-block;
-    width: 70%;
+ul.slides {
+    display: block;
     position: relative;
-    top: 103px;
-  }
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
 
-  .venntxtbtm:hover {
-    color: #FFFFFF;
-    text-decoration:none;
-  } */
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
 
 
-/* .venncirctop {
-    padding: 18px;
-    width: 180px;
-    height: 180px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
-    border-radius: 50%;
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    display: block;
     position: absolute;
-    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
-    -moz-transition: color 0.5s linear, background-color 0.5s linear;
-    -o-transition: color 0.5s linear, background-color 0.5s linear;
-    transition: color 0.5s linear, background-color 0.5s linear;
-    margin-bottom: -130px;
-    margin-left: -70px;
-    background-color: #5c5b59;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    background-color: rgba(92, 91, 89, 0.5);
-    z-index: 1;
-    position: relative;
-  } */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
 
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
 
-/* .venncirctop > a {
-    font-size: 19px;
-    font-weight: bold;
-    letter-spacing: .004em;
-    color: #FFFFFF;
-    text-decoration: none;
-  } */
-
-
-/* .venncirctop:hover {
-    z-index: 5;
-    background-color: #6A6561;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    background-color: rgba(106, 101, 97, 0.9);
-  } */
-
-
-/* .venncircbtm {
-    padding: 18px;
-    width: 180px;
-    height: 180px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
-    border-radius: 50%;
+.carousel-controls {
     position: absolute;
-    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
-    -moz-transition: color 0.5s linear, background-color 0.5s linear;
-    -o-transition: color 0.5s linear, background-color 0.5s linear;
-    transition: color 0.5s linear, background-color 0.5s linear;
-    top: 90px;
-    margin-right: 100px;
-    margin-left: -70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
     text-align: center;
-    background-color: #627746;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    background-color: rgba(98, 119, 70, 0.5);
-    z-index: 1;
-    position: relative;
-  }
+}
 
-  .venncircbtm > a {
-    font-size: 19px;
-    font-weight: bold;
-    letter-spacing: .004em;
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-
-  .venncircbtm:hover {
-    z-index: 5;
-    background-color: #3a4e20;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    background-color: rgba(58, 78, 32, 0.9);
-  } */
-
-
-/* .venntxttop {
-    text-align: center;
+.carousel-dots .carousel-dot {
     display: inline-block;
-    margin: 0 auto;
-    position: relative;
-    top: 10px;
-  }
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
 
-  .venntxttop:hover {
-    color: #FFFFFF;
-    text-decoration:none;
-  } */
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+  opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }
+/*carousel end*/
+
 
 .navbar-brand {
   position: relative;
