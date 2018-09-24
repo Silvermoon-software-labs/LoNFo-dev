@@ -7,5 +7,5 @@ from .views import(
     )
 urlpatterns = [
     url(r'^dummy/$', dummy),
-    url('$', landing),
+    url(r'^$', landing),
 ]
