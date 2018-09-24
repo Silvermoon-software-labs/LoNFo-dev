@@ -30,6 +30,10 @@ This will be the place where they can meet and mutually agree on some deal (This
     - [ ] Signup
     - [ ] Social Login
 - [ ] Create poster
+- [ ] Lost
+    - [ ] Form
+- [ ] Found
+    - [ ] Form
 
 
 
