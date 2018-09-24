@@ -24,7 +24,7 @@ This will be the place where they can meet and mutually agree on some deal (This
 - [ ] Front Page
     - [x] Designing
     - [ ] Functionality
-    - [ ] Admin Connection
+    - [x] Admin Connection
 - [ ] Accounts Page
     - [x] Login
     - [ ] Signup
