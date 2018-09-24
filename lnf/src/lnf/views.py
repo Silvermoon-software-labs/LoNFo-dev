@@ -10,7 +10,10 @@ def dummy(requests):
     queryset = LostNFound.objects.all()
     query = requests.GET.get("q")
     if query:
-        queryset = queryset.filter(Q(Name__icontains=query))
+        queryset = queryset.filter(
+            Q(Name__icontains = query) |
+            Q(Lost_Found_Product__icontains = query )
+        	)
 
     details = {
         "object_list": queryset
