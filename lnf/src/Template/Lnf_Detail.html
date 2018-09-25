@@ -12,7 +12,7 @@
 {% for obj in object_list%}
 {{ obj.Name}}<br/>
 {% if obj.Image %}
-    <img src= '{{ obj.Image.url }}'/><br/>
+    <img src= '{{ obj.Image.url }}' class= 'img-responsive'   height="42" width="42"/><br/>
 {% endif %}
 {{ obj.Contact}}<br/>
 {{ obj.Email}}<br/>
