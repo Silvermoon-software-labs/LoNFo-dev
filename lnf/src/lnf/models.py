@@ -10,6 +10,7 @@ class LostNFound(models.Model):
     Name = models.CharField(max_length=30)
     Contact = models.IntegerField()
     Email = models.EmailField()
+    Image = models.FileField(null = True, blank=True)
     Lost_Found_Product = models.CharField(max_length=10)
     Small_Description = models.TextField(max_length=120)
     # tags = TaggableManager()
