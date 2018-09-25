@@ -13,3 +13,18 @@ function closeForm(){
  remove.classList.remove("remove-sign-up")
   addCloseClass.classList.remove("show-form");
 }
+
+window.onscroll = function(){
+  stickyHeader();
+} 
+
+ var header = document.getElementsByClassName('header-wrapper')[0];
+ var sticky = header.offsetTop;
+
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}

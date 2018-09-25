@@ -22,9 +22,17 @@ a {
   background-color: #26C6CD;
   display: flex;
   justify-content: space-around;
-/*  position: fixed;*/
   width: 100%;
   border-bottom: 1px solid green;
+  z-index: 111;
+}
+.sticky{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.sticky + .quotes {
+  padding-top: 50px;
 }
 .logo{
   align-self: center;
@@ -121,6 +129,7 @@ a {
   margin: 50px auto;
   max-width: 950px;
   font-size: 32px;
+  color: #26C6CD;
 }
 .some {
   margin-top: 335px;
