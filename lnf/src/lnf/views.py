@@ -12,7 +12,8 @@ def dummy(requests):
     if query:
         queryset = queryset.filter(
             Q(Name__icontains = query) |
-            Q(Lost_Found_Product__icontains = query )
+            Q(Lost_Found_Product__icontains = query ) |
+            Q(Location__icontains= query)
         	)
 
     details = {

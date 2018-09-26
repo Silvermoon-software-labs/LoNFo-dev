@@ -9,6 +9,14 @@
 <input type="submit" name="" value= 'Search'/>
 </form>
 
+<form method='GET' action=''>
+<strong>LOCATION    </strong>  
+<small><input type="checkbox" name="q" value='Bangalore' />BANGALORE</small> 
+ <small><input type="checkbox" name="q" value='Pune' />PUNE</small> 
+<input type="submit" name="" value= 'Filter'/>
+</form>
+
+
 {% for obj in object_list%}
 {{ obj.Name}}<br/>
 {% if obj.Image %}
