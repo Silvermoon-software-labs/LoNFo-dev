@@ -10,9 +10,9 @@ def dummy(requests):
     query = requests.GET.get("q")
     if query:
         queryset = queryset.filter(
-            Q(Name__icontains = query) |
-            Q(Lost_Found_Product__icontains = query ) |
-            Q(Location__contains= query) 
+            Q(Name__icontains=query) |
+            Q(Lost_Found_Product__icontains=query) |
+            Q(Location__contains=query)
             )
 
     details = {

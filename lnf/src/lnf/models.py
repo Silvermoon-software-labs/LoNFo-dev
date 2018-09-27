@@ -10,9 +10,10 @@ class LostNFound(models.Model):
     Name = models.CharField(max_length=30)
     Contact = models.IntegerField()
     Email = models.EmailField()
-    Image = models.ImageField(null=True, blank=True, 
-        width_field="width", 
-        height_field="height")
+    Image = models.ImageField(null=True,
+                              blank=True,
+                              width_field="width",
+                              height_field="height")
     height = models.IntegerField(default=0)
     width = models.IntegerField(default=0)
     Lost_Found_Product = models.CharField(max_length=10)
