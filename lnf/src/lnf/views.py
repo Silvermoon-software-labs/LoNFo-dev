@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.db.models import Q
-# Create your views here.
 from .models import LostNFound
 
 
@@ -13,8 +12,8 @@ def dummy(requests):
         queryset = queryset.filter(
             Q(Name__icontains = query) |
             Q(Lost_Found_Product__icontains = query ) |
-            Q(Location__icontains= query)
-        	)
+            Q(Location__contains= query) 
+            )
 
     details = {
         "object_list": queryset
