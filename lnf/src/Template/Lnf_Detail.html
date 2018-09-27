@@ -4,9 +4,24 @@
 <body>
 <h1>Details will come here</h1>
 
-{% for obj in object_list%}
+<form method= 'GET' action=''>
+<input type="text" name="q" placeholder="Search posts"/>
+<input type="submit" name="" value= 'Search'/>
+</form>
 
+<form method='GET' action=''>
+<strong>LOCATION    </strong>  
+<small><input type="checkbox" name="q" value='Bangalore' />BANGALORE</small> 
+ <small><input type="checkbox" name="q" value='Pune' />PUNE</small> 
+<input type="submit" name="" value= 'Filter'/>
+</form>
+
+
+{% for obj in object_list%}
 {{ obj.Name}}<br/>
+{% if obj.Image %}
+    <img src= '{{ obj.Image.url }}' class= 'img-responsive'   height="42" width="42"/><br/>
+{% endif %}
 {{ obj.Contact}}<br/>
 {{ obj.Email}}<br/>
 {{ obj.Lost_Found_Product}}<br/>
@@ -14,7 +29,7 @@
 {{ obj.Location}}<br/>
 {{ obj.Date_and_Time}}<br/>
 
-
+</br>
 {% endfor %}
 </body>
 
