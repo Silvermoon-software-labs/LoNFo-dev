@@ -19,12 +19,18 @@ a {
 }
 
 .header-wrapper {
-  background-color: #26C6CD;
-  display: flex;
-  justify-content: space-around;
+  background-color: white;
   width: 100%;
   z-index: 111;
   box-shadow: 0 8px 6px -6px darkslategrey;
+  
+}
+.layer-1, .layer-2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+
 }
 
 .sticky {
@@ -54,24 +60,29 @@ a {
 
 
 .menu ul li a {
-  color: white;
+  color: #333;
   padding: 16px;
   line-height: 5px;
   text-transform: uppercase;
   margin: 0 10px;
   transition: background-color 0.3s ease-out;
+  font-size: 16px;
 }
 
 .menu ul li a:hover {
-  background-color: #26C6CD;
-  border-color: transparent;
-  color: #1a888c;
+  color: #8B0000;
+ border-bottom: 2px solid	#8B0000;
 }
 
 .hide-menu {
   display: none;
 }
-
+.search-icon{
+  width: 24px;
+}
+.burger {
+  width: 24px;
+}
 .cta {
   align-self: center;
 }
@@ -100,7 +111,9 @@ a {
   border-radius: 12px;
   outline: none;
 }
-
+.buttons-wrapper {
+  display: flex;
+}
 .close-btn {
   display: none;
 }
@@ -108,9 +121,12 @@ a {
 .btn {
   width: 95px;
   height: 50px;
-  background-color: forestgreen;
-  border-radius: 20px;
-  margin: 5px 0px;
+  border-radius: 4px;
+  margin: 5px 10px;
+  border-color: #8B0000;
+}
+.new-account {
+  justify-self: flex-end;
 }
 
 .show-close-button {
@@ -129,6 +145,39 @@ a {
   margin-right: 20px;
   outline: none;
 }
+
+
+/* sidebar style */
+.sidebar-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar-menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* sidebar end */
 
 .sr-only {
   color: white;
