@@ -22,3 +22,14 @@ class UserLoginForm(forms.Form):
             if not user.check_password(password):
                 raise forms.ValidationError("Incorrect password")
         return super(UserLoginForm,self).clean(*args, **kargs)
+
+
+class UserRegisterForm(forms.ModelForm):
+	class Meta:
+		model = User
+		fields = [
+           'username',
+           'email',
+           'password',
+
+		]

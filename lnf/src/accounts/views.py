@@ -5,7 +5,7 @@ from django.contrib.auth import (
 	login,
 	logout,
 	)
-from .form import UserLoginForm
+from .form import UserLoginForm, UserRegisterForm
 # Create your views here.
 
 def login_view(requests):
@@ -27,8 +27,15 @@ def login_view(requests):
 
 
 def register_page(requests):
-    return render(requests, "login_page.html", {})
+    title = "Register"
+    form = UserRegisterForm(requests.POST or None)
+    context = {
+        "title": title,
+        "form" : form,
+        }
+    return render(requests, "login_page.html", context)
 
 
 def logout_view(requests):
+    #logout(requests)
     return render(requests, "login_page.html", {})
