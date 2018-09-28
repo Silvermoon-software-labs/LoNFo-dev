@@ -29,6 +29,12 @@ def login_view(requests):
 def register_page(requests):
     title = "Register"
     form = UserRegisterForm(requests.POST or None)
+    if form.is_valid():
+    	user = form.save(commit=False)
+    	password = form.cleaned_data.get("password")
+    	user.set_password(password)
+    	user.save()
+    	#login(requests,user) 
     context = {
         "title": title,
         "form" : form,
