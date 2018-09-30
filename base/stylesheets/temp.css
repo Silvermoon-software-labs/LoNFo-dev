@@ -98,8 +98,17 @@ a {
 }
 
 .show-form {
-  display: flex;
-  align-items: center;
+  height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 30px;
+    display: block;
 }
 
 
@@ -110,6 +119,7 @@ a {
   font-size: 14px;
   border-radius: 12px;
   outline: none;
+  margin: 10px 0;
 }
 .buttons-wrapper {
   display: flex;

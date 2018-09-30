@@ -37,6 +37,15 @@ function openNav() {
     document.getElementById("sidenav").style.width = "250px";
 }
 
-function closeNav() {
-    document.getElementById("sidenav").style.width = "0";
+function closeNav(event) {
+    document.getElementById("sidenav").style.width = 0;
+    event.preventDefault(); //event bubbling & event capturing 
+    event.stopPropagation();
+    return false;
+}
+ var modal = document.getElementsByClassName("show-form")[0];
+window.onclick = function(event) {
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
 }
