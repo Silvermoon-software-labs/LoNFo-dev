@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reg-form-wrapper {
+width: 400px;
+}
+
+.reg-form-wrapper  form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #8B0000;
+    padding: 20px;
+    height: 100%;
+    margin: 40px 0;
+
+}
+.reg-form-wrapper  form input, .reg-form-wrapper  form select{
+    height: 50px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.form-submit-btn {
+  width: 95px;
+  height: 50px;
+  border-radius: 4px;
+  margin: 5px 10px;
+  border-color: #8B0000;
+  align-self: center;
+}
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}

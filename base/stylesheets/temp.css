@@ -20,7 +20,7 @@ a {
 
 .header-wrapper {
   background-color: white;
-  width: 100%;
+  padding: 0 24px;
   z-index: 111;
   box-shadow: 0 8px 6px -6px darkslategrey;
   

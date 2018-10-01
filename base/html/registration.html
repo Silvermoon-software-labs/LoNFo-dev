@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link href="../stylesheets/temp.css" rel='stylesheet' type='text/css' />
+        <link href="../stylesheets/registration.css" rel='stylesheet' type='text/css' />
+        <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+            <header class="header-wrapper" id="sticky">
+                    <div class="layer-1">
+                      <div class="logo">
+                        <a class="navbar-brand brand" href="./index.html">Lost & Found</a>
+                      </div>
+                      <div class="menu">
+                           <ul>
+                              <li><a href="#">Home</a></li> 
+                              <li><a href="#">Lost Items</a></li>
+                              <li><a href="#">Found Items</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">About Us</a></li>
+                           </ul>
+                       </div>
+                       <div class="search-icon">
+                           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                              <title>Search</title>
+                              <path d="M19.71,18.29l-4-4a6.52,6.52,0,1,0-1.41,1.41l4,4ZM6,10.5A4.5,4.5,0,1,1,10.5,15,4.49,4.49,0,0,1,6,10.5Z"/>
+                          </svg>
+                      </div>
+                    </div>
+                    <div class="layer-2">
+                        <div class="burger" onclick="openNav()">
+                              <div class="sidebar-menu" id="sidenav">
+                                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav(event)">&times;</a>
+                                          <a href="#">Home</a>
+                                          <a href="#">Lost Items</a>
+                                          <a href="#">Found Items</a>
+                                          <a href="#">Privacy Policy</a>
+                                          <a href="#">Contact</a>
+                                          <a href="#">About Us</a>  
+                                </div>
+                           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Hamburger</title><rect class="cls-1" x="5.5" y="6.5" width="13" height="1"/><polygon points="19 6 5 6 5 8 19 8 19 6 19 6"/><rect class="cls-1" x="5.5" y="11.5" width="13" height="1"/><polygon points="19 11 5 11 5 13 19 13 19 11 19 11"/><rect class="cls-1" x="5.5" y="16.5" width="13" height="1"/><polygon points="19 16 5 16 5 18 19 18 19 16 19 16"/></svg>
+                          </div>
+                        <div class="buttons-wrapper">
+                      <div class="cta">
+                           <form class="navbar-form" role="form">
+                              <div class="form-group">
+                                  <label class="sr-only" for="Email">Email</label>
+                                  <input type="email" class="form-control" id="Email" placeholder="Your Email" autofocus required />
+                              </div>
+                              <div class="form-group">
+                                  <label class="sr-only" for="Password">Password</label>
+                                  <input type="password" class="form-control" id="Password" placeholder=" Your Password" required />
+                              </div>
+                              <button type="submit" class="btn close-btn" onclick="closeForm()">Submit</button>
+                          </form>
+                            <button type="submit" class="btn btn-success" onclick="openForm()">Log in</button>
+                      </div>
+                      </div>
+            </header>
+        <div class="wrapper">
+            <h1>some registration related text</h1>
+            <div class="reg-form-wrapper">
+            <form>
+                <div class="social-login">
+                <span>Facebook</span>
+                <span>Google</span>
+                <span>Tweeter</span>
+                </div>
+                <label>First Name</label>
+                <input type="text" placeholder="name"/>
+                <label>Email</label>
+                <input type="email" placeholder="email"/>
+                <label>mobile no</label>
+                <input type="number" placeholder="number"/>
+                <label>Address</label>
+                <input type="text" placeholder="Enter your full Address"/>
+                <label>Select your city</label>
+                <select>
+                    <option value="volvo">City</option>
+                    <option value="saab">bangalore</option>
+                    <option value="opel">bhopal</option>
+                    <option value="audi">indore</option>
+                 </select>
+                <label>Select your state</label>
+                <select>
+                        <option value="volvo">MP</option>
+                        <option value="saab">UP</option>
+                        <option value="opel">Karnataka</option>
+                        <option value="audi">Delhi</option>
+                     </select>
+                <input class="form-submit-btn" type="button" value="submit"/>
+             </form>
+             </div>
+        </div>
+    </body>
+</html>

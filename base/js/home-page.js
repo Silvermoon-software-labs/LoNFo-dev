@@ -43,9 +43,12 @@ function closeNav(event) {
     event.stopPropagation();
     return false;
 }
- var modal = document.getElementsByClassName("show-form")[0];
+ var modal = document.getElementsByClassName("navbar-form");
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target === modal) {
       modal.style.display = "none";
+  }
+  else{
+    modal.style.display = "none";
   }
 }
