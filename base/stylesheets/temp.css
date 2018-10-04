@@ -77,8 +77,18 @@ a {
 .hide-menu {
   display: none;
 }
+.search-form {
+  position: absolute;
+  right:0;
+  display: none; 
+}
+.search-form input {
+  width: 200px;
+  height: 40px;
+}
 .search-icon{
   width: 24px;
+  position: relative;
 }
 .burger {
   width: 24px;

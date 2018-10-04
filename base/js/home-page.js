@@ -43,12 +43,14 @@ function closeNav(event) {
     event.stopPropagation();
     return false;
 }
- var modal = document.getElementsByClassName("navbar-form");
+ var modal = document.getElementById("navbar-form");//have some bug need to fix
 window.onclick = function(event) {
   if (event.target === modal) {
       modal.style.display = "none";
   }
-  else{
-    modal.style.display = "none";
-  }
 }
+
+function searchform() {
+  document.getElementById("acv").style.display = "block";
+}
+
